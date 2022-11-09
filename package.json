@@ -1,0 +1,33 @@
+{
+  "name": "taro2-taro3",
+  "version": "1.0.0",
+  "description": "借助AST转换 Taro2 语法到 Taro3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvpleung/taro2-taro3.git"
+  },
+  "keywords": [
+    "taro2",
+    "taro3",
+    "taro2-taro3"
+  ],
+  "author": "mvpleung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvpleung/taro2-taro3/issues"
+  },
+  "homepage": "https://github.com/mvpleung/taro2-taro3#readme",
+  "devDependencies": {
+    "@babel/generator": "^7.20.4",
+    "@babel/parser": "^7.20.3",
+    "@babel/traverse": "^7.20.1",
+    "@babel/types": "^7.20.2",
+    "@types/node": "^18.11.9",
+    "recast": "^0.21.5"
+  }
+}
