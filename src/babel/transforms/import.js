@@ -3,9 +3,7 @@
  * 1. 处理 import 导入，比如 import { useState } from '@tarojs/taro' ==> import { useState } from REACT_TOKEN
  * 2. 处理使用的地方，比如 Taro.FC ==> React.FC
  * 3. 处理类组件的继承 class AdWebView extends Taro.Component
- * @Author: zichao.liang
  * @Date: 2022-10-23 12:58:05
- * @Last Modified by: zichao.liang
  * @Last Modified time: 2022-10-23 22:42:10
  */
 const traverse = require('@babel/traverse').default

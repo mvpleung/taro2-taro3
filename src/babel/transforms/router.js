@@ -1,8 +1,6 @@
 /*
  * 处理类组件的路由信息 this.$router
- * @Author: zichao.liang
  * @Date: 2022-10-23 12:58:05
- * @Last Modified by: zichao.liang
  * @Last Modified time: 2022-10-23 22:42:53
  */
 const traverse = require('@babel/traverse').default

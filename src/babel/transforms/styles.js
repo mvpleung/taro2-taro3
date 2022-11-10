@@ -1,8 +1,6 @@
 /*
  * 处理样式，移除 externalClasses、addGlobalClass
- * @Author: zichao.liang
  * @Date: 2022-10-23 12:58:05
- * @Last Modified by: zichao.liang
  * @Last Modified time: 2022-10-23 22:43:12
  */
 const traverse = require('@babel/traverse').default

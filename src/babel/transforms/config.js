@@ -1,9 +1,7 @@
 /*
  * 处理 page config
  * 提取 config 字段到 同级目录的 index.config.ts
- * @Author: zichao.liang
  * @Date: 2022-10-23 12:58:05
- * @Last Modified by: zichao.liang
  * @Last Modified time: 2022-10-23 22:52:05
  */
 const fs = require('fs')
